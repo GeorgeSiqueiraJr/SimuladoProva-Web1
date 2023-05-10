@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <div class="cabecalho">
+           
+        </div>
+        <div class="topo">
+            <table border="3">
+               <caption> <strong>Tabela 3x4</strong> </caption>
+                <tr>
+                    <td>1.1</td>
+                    <td>2.1</td>
+                    <!--<td> Linha 1 Céclula 2</td> -->
+                    <td rowspan="2">3.1</td>
+              </tr>
+              <tr>
+                    <td>2.1</td>
+                    <td>2.2</td>
+                    <!-- <td> Linha 2 Céclula 3</td> -->
+              </tr>
+            </table>
+        </div>
+    </header>
+    <main>
+        <div class="miolo">
+            <form action="">
+          <fieldset><legend>Dados Pessoais</legend>
+        <label for="">Nome:</label>
+        <input type="text"><br>
+        <label for="">Senha: </label>
+        <input type="password" name="Senha" id=""><br>
+        <label for="">Email:</label>
+        <input type="email" name="" id=""><br>
+        <label for="">Sexo: </label>
+        <label for="">Feminino</label>
+        <input type="radio" name="sexo" id="" value="F">
+        <label for="">Masculino</label> <input type="radio" name="sexo" id="" value="M"><br>
+        <label for="">Data: </label>
+        <input type="date" name="Data" id="">
+
+
+    </fieldset>
+    <fieldset><legend>Endereço</legend>
+    <label for="">Logradouro: </label>
+    <input type="text"><br>
+    <label for="">Número: </label>
+    <input type="number" name="Número" id=""><br>
+           
+    <label >Estado:</label> <input type="text" name="" list="Estados"> <br>
+    <datalist id="Estados">
+        <option value="Alagoas"></option>
+        <option value="Bahia"></option>
+        <option value="Sergipe"></option>
+        <option value="Pernambuco"></option>
+        <option value="Acre"></option><br>
+    </datalist>
+        <label for="">Complemento:</label><br>
+        <textarea name="complemento" id="" cols="30" rows="2"></textarea>
+    
+
+    </fieldset>
+    <fieldset><legend>Tópicos de interesse</legend>
+    <input type="checkbox" name="Músicas" id="">
+    <label for="">Múcicas</label><br>
+    <input type="checkbox" name="Músicas" id="">
+    <label for="">Filmes</label><br>
+    <input type="checkbox" name="Músicas" id="">
+    <label for="">Esportes</label><br>
+    <input type="checkbox" name="Músicas" id="">
+    <label for="">Estudos</label><br>
+</fieldset>
+    <input type="button" value="Enviar (input)">
+    <button>Enviar (button)</button>
+</form>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

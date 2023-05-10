@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    
+}
+
+header{
+    width: 100vw;
+    height: 38vh;
+    display: flex;
+    flex-direction: column;
+    background-color:#ddff00;
+    outline: 2px solid #ccc;
+}
+.cabecalho{
+    width: 100vw;
+    height: 10vh;
+    outline: 2px solid;
+    
+}
+.topo{
+    width: 100vw;
+    height: 28vh;
+    margin-top: 10px;
+   
+}
+table{
+    width: 3px;
+    height: 4px;
+}
+main{
+   height: 55vh;
+   width: 50%;
+   margin: auto;
+   background-color:#ddff00;
+}
+footer{
+    width: 100vw;
+    height: 12vh;
+    outline: 2px solid #ccc;
+    display: flex;
+    background-color:#ddff00;
+}
